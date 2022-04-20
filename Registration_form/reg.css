@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: Roboto;
+    src: url('/Letter/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: RobotoMedium;
+    src: url('/Letter/Roboto-Medium.ttf');
+}
+form{
+    margin-left: 29%;
+    text-align: center;
+    background-color: #FFFFFF;
+    min-width: 71%;
+    height: 750px;
+    border-radius: 100px 0px 0px 100px;
+    background-repeat: no-repeat;
+    box-shadow: 2px 0px 36px #C5C5C5;
+}
+div{
+    padding: 16%;
+
+}
+input{
+    justify-content: center;
+    padding: 15px;
+    margin: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #C5C5C5;
+}
+.phone_number{
+    width: 389px;
+}
+.password{
+    width: 389px;
+}
+.button{
+    border: none;
+    width: 410px;
+    height: 43px;
+    left: 286px;
+    top: 550px;
+    font-family: RobotoMedium;
+    color: white;
+    
+    background: #6288CF;
+    border-radius: 10px;
+}
+h2{
+    margin-right: 25%;
+    color: #374C72;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 600;
+
+}
+p{
+    font-family: Roboto;
+    color: #374C72;
+    padding: 15px;
+
+}
+a:link{
+    color: #6288CF;
+}
+a:hover{
+    color:#C5C5C5;
+}
+.image_dog{
+    position: absolute;
+    width: 346px;
+    height: 529px;
+    left: 301px;
+    top: 189px;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+input:hover{
+    border-color: #6288CF;
+}
+input:focus{
+    outline: none;
+}
+body{
+    background-color: #E5E5E5;
+}
